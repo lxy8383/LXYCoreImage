@@ -7,16 +7,21 @@
 //
 
 #import "ViewController.h"
+#import <CoreImage/CoreImage.h>
 
 @interface ViewController ()
-
+{
+    UIImagePickerController *_imagePickerController;
+    
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
